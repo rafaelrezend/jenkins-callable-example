@@ -1,0 +1,5 @@
+<div>
+  This plugin is an example of how to channel I/O requests to slaves without relying on FilePath.
+  
+  This builder uses an external library to write a message into a file in the workspace. Since the external library is itself responsible for I/O, the builder needs to handle the distribution in another layer. This is done by implementing a Callable, invoked via Channel.
+</div>
